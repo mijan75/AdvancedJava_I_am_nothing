@@ -1,0 +1,39 @@
+
+<div *ngIf="address">
+    <h2><span jhiTranslate="mijanApp.address.detail.title">Address</span> {{address.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="mijanApp.address.addressId">Address Id</span></dt>
+        <dd>
+            <span>{{address.addressId}}</span>
+        </dd>
+        <dt><span jhiTranslate="mijanApp.address.presentAddress">Present Address</span></dt>
+        <dd>
+            <span>{{address.presentAddress}}</span>
+        </dd>
+        <dt><span jhiTranslate="mijanApp.address.permanentAddress">Permanent Address</span></dt>
+        <dd>
+            <span>{{address.permanentAddress}}</span>
+        </dd>
+        <dt><span jhiTranslate="mijanApp.address.addressId">Address Id</span></dt>
+        <dd>
+            <div *ngIf="address.addressId">
+                <a [routerLink]="['/student', address.addressId?.id]">{{address.addressId?.id}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'address/'+ address.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

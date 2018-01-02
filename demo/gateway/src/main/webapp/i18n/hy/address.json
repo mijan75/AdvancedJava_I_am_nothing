@@ -1,0 +1,24 @@
+{
+    "mijanApp": {
+        "address" : {
+            "home": {
+                "title": "Addresses",
+                "createLabel": "Ստեղծել նոր Address",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Address"
+            },
+            "created": "Նոր Address ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Address թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Address հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Address {{ id }}?"
+            },
+            "detail": {
+                "title": "Address"
+            },
+            "addressId": "Address Id",
+            "presentAddress": "Present Address",
+            "permanentAddress": "Permanent Address",
+            "addressId": "Address Id"
+        }
+    }
+}

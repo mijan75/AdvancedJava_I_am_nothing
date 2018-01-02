@@ -1,0 +1,21 @@
+{
+    "mijanApp": {
+        "student" : {
+            "home": {
+                "title": "Students",
+                "createLabel": "Ստեղծել նոր Student",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Student"
+            },
+            "created": "Նոր Student ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Student թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Student հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Student {{ id }}?"
+            },
+            "detail": {
+                "title": "Student"
+            },
+            "name": "Name"
+        }
+    }
+}
