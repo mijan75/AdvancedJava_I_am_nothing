@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mijan/build/generated/source/apt/apt.iml" filepath="$PROJECT_DIR$/mijan/build/generated/source/apt/apt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/build/generated/source/apt/apt1.iml" filepath="$PROJECT_DIR$/gateway/build/generated/source/apt/apt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mijan/src/main/main.iml" filepath="$PROJECT_DIR$/mijan/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/src/main/main1.iml" filepath="$PROJECT_DIR$/gateway/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/src/test/test.iml" filepath="$PROJECT_DIR$/gateway/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mijan/src/test/test1.iml" filepath="$PROJECT_DIR$/mijan/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "addressId",
+            "otherEntityName": "student",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "address"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "addressId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "presentAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "permanentAddress",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20171107112008",
+    "entityTableName": "address",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}
